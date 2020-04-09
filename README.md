@@ -6,6 +6,11 @@ a big update of JShell - a tool to get a JavaScript shell with XSS by s0med3v, b
 of new browsers. JSshell also doesn't require Netcat. Although JSshell working for both Unix and Windows, on Unix OS, JSshell 
 still has colors.
 
+## Features:
+- Executing javascript shell remotely
+- Automatically finding blind XSS
+- Generate javascript reverse shell
+
 # Usage
 #### Generate JS reverse shell payload:  `-g`
 #### Set the local port number for listening and generating payload (By default, it will be set to 4848):  `-p`
@@ -100,5 +105,5 @@ This created by shelld3v, hacking at HackOne and Bugcrowd with a secret account!
 
 - Payloads for `<img>`, `<script>`, ...
 - Some shortcut commands: print the current session, domain, endpoint, ...
-- Better GUI
+- Better GUI  
 ...
